@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/172ea152bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- Adding a logo here -->
+                <img src="/Resources/LOGO.png" class="logo" alt="MySeltLogo">
+                <!-- The menu bar -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="hdr-text">
+                <p>ANDROID DEVELOPER</p>
+                <h1>Hi, I'm <span>Wilfred Muchire</span> <br> from Kenya <br> Android developer. </h1>
+            </div>
+        </div>
+    </div>
+</header>  
+
+
+<!-- THE ABOUT SECTION -->
+    <section>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img height="500px" src="/Resources/self-img.jpg" alt="My best picture.">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus natus dolores architecto debitis nobis consequatur repellat molestiae repudiandae obcaecati facilis, ipsum qui saepe error! Maiores accusamus veritatis aperiam. In, necessitatibus!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick = "newTab('skills')">Skills</p>
+                            <p class="tab-links" onclick = "newTab('experience')">Experience</p>
+                            <p class="tab-links" onclick = "newTab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Intefaces.</li>
+                                <li><span>Android Developent</span><br> Designing and building android /  IOS applications.</li>
+                                <li><span>Web Development</span><br> Designing Web Interfaces.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Portfolio Designs For A Comapany.</li>
+                                <li><span>Android Developent</span><br>Business Data Collection App.</li>
+                                <li><span>Web Development</span><br> Farmers Choice Web Application.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 - Current</span><br>UI/UX Design Training on CourseEra Institute.</li>
+                                <li><span>2021 - 2023</span> <br>Training on Google Android Developers.<li>
+                                <li><span>2022 - 2023</span> <br>FreeCodeCamp Web Development in JavaScript.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <Section>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum obcaecati nisi tenetur aliquam nobis est reiciendis fugit doloremque asperiores ad animi nihil, laboriosam reprehenderit cum veritatis modi voluptatem dicta.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>Android Developer</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum obcaecati nisi tenetur aliquam nobis est reiciendis fugit doloremque asperiores ad animi nihil, laboriosam reprehenderit cum veritatis modi voluptatem dicta.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Web Android</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum obcaecati nisi tenetur aliquam nobis est reiciendis fugit doloremque asperiores ad animi nihil, laboriosam reprehenderit cum veritatis modi voluptatem dicta.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- My work -->
+     <section>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Fully Completed Projects.</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/Resources/LOGO.png" 
+                        alt="juja">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The application connects you to your talented music listeners aroud the globe. Access the app from the playstore.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/Resources/LOGO.png" alt="juja">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The application connects you to your talented music listeners aroud the globe. Access the app from the playstore.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/Resources/LOGO.png" alt="juja">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The application connects you to your talented music listeners aroud the globe. Access the app from the playstore.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+     </section>
+     <!-- My contacts  -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me.</h1>
+                    <p> <i class="fa-solid fa-paper-plane"> </i>logincoin40@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 0114139590</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Wilfred Kiama. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+     </div>
+     <script>
+       
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>
